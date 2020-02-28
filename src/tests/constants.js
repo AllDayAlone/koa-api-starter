@@ -14,6 +14,6 @@ module.exports = {
     DEFAULT_PASSWORD: 'qwerty',
     DEFAULT_SIGNUP_TOKEN: 'signup_token',
     DEFAULT_RESET_PASSWORD_TOKEN: 'reset_password_token',
-    PRIVATE_FIELDS: ['passwordHash', 'signupToken', 'resetPasswordToken'],
+    PRIVATE_FIELDS: ['passwordHash', 'signupToken', 'resetPasswordToken', 'lastRequest'],
   },
 };
